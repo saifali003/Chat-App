@@ -5,7 +5,7 @@ import {BrowserRouter} from "react-router-dom"
 import {Provider} from "react-redux";
 import { store } from '../src/redux/store.js';
 
-export const serverUrl = "http://localhost:8080"
+export const serverUrl = "https://chat-app-backened-bpv5.onrender.com"
 createRoot(document.getElementById('root')).render(
    <BrowserRouter>
     <Provider store={store}>
